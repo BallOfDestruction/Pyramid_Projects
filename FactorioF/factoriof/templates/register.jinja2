@@ -1,0 +1,64 @@
+{% extends "start_page.jinja2" %}
+{% block datas %}
+					<div id="registerSite">
+						<form action="register.html" method="POST">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<div class="col-md-12 col-sm-12 col-xs-12">
+									<div class="col-md-offset-2 col-sm-offset-2 col-xs-2 col-md-6 col-xs-6 col-sm-6 errors">
+										{% for er in errors %}
+											{{ er }}
+											<br>
+										{% endfor %}
+									</div>
+								</div>
+								<div class="col-md-12 col-sm-12 col-xs-12 registerInput">
+									<div class="col-md-4 col-xs-4 col-sm-4 col-md-offset-2 col-sm-offset-2 col-xs-2">Enter first name:</div>
+									<div class="col-md-4 col-xs-4 col-sm-4" >
+										<input type="text" class="registerInput form-control" name="firstName" placeholder="first name" value="{{firstName}}">
+									</div>
+								</div>
+								<div class="col-md-12 col-sm-12 col-xs-12 registerInput">
+									<div class="col-md-4 col-xs-4 col-sm-4 col-md-offset-2 col-sm-offset-2 col-xs-2">Enter second name:</div>
+									<div class="col-md-4 col-xs-4 col-sm-4" >
+										<input type="text" class="registerInput form-control" name="secondName" placeholder="second name" value="{{secondName}}">
+									</div>
+								</div>
+								<div class="col-md-12 col-sm-12 col-xs-12 registerInput">
+									<div class="col-md-4 col-xs-4 col-sm-4 col-md-offset-2 col-sm-offset-2 col-xs-2">Enter mail:</div>
+									<div class="col-md-4 col-xs-4 col-sm-4" >
+										<input type="text" class="registerInput form-control" name="mail" placeholder="mail" value="{{mail}}">
+									</div>
+								</div>
+								<div class="col-md-12 col-sm-12 col-xs-12 registerInput">
+									<div class="col-md-4 col-xs-4 col-sm-4 col-md-offset-2 col-sm-offset-2 col-xs-2">Enter nick:</div>
+									<div class="col-md-4 col-xs-4 col-sm-4" >
+										<input type="text" class="registerInput form-control" name="nick" placeholder="nick" value="{{nick}}">
+									</div>
+								</div>
+								<div class="col-md-12 col-sm-12 col-xs-12 registerInput">
+									<div class="col-md-4 col-xs-4 col-sm-4 col-md-offset-2 col-sm-offset-2 col-xs-2">Enter login:</div>
+									<div class="col-md-4 col-xs-4 col-sm-4">
+										<input type="text" class="registerInput form-control" name="login" placeholder="login" value="{{login}}">
+									</div>
+								</div>	
+								<div class="col-md-12 col-sm-12 col-xs-12 registerInput">
+									<div class="col-md-4 col-xs-4 col-sm-4 col-md-offset-2 col-sm-offset-2 col-xs-2">Enter password:</div>
+									<div class="col-md-4 col-xs-4 col-sm-4" >
+										<input type="password" class="registerInput form-control" name="password" placeholder="password">
+									</div>
+								</div>
+								<div class="col-md-12 col-sm-12 col-xs-12 registerInput">
+									<div class="col-md-4 col-xs-4 col-sm-4 col-md-offset-2 col-sm-offset-2 col-xs-2">Confirm password:</div>
+									<div class="col-md-4 col-xs-4 col-sm-4" >
+										<input type="password" class="registerInput form-control" name="confirm_password" placeholder="confirm password">
+									</div>
+								</div>
+								<div class="col-md-12 col-sm-12 col-xs-12 registerInput">
+									<div class="col-md-offset-4 col-sm-offset-4 col-xs-4 col-md-4 col-xs-4  col-sm-4">
+										<input type="submit" name="register" class="registerInput form-control" value="Register">
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+{% endblock %}

@@ -1,0 +1,103 @@
+body{
+	background: url(../images/background.jpg) ;
+	background-size: cover;
+	background-size:100%;
+	background-attachment: fixed;
+}
+
+div.error{
+	color: red;
+	font-size: 1.2em;
+}
+
+div#main{
+	margin-top: 90px;
+}
+
+div.comment{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+span.comment{
+	font-size: 1em;
+}
+
+span.small{
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+span.head{
+	font-size: 2em;
+	font-style: bold;
+}
+
+a.elMenu{
+	color: black;
+	font-size: 2em;
+	border-radius: 20px;
+	background: #F6CA7E;
+}
+
+div.endMenu{
+}
+
+div.arenda{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+div.register{
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+div.oneRegister{
+	margin-bottom: 15px;
+}
+
+a.endMenu{
+	color: white;
+	font-size: 1em;
+    text-align:center;
+}
+
+img.timeTablePicture{
+	width: 100%;
+	height: 100%;
+}
+
+img.arenda{
+	width: 100%;
+	height: 100%;
+}
+
+div#doubleMain{
+	background: #F6CA7E;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding-bottom: 20px;
+}
+
+div#leftImage{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+
+div.mainText{
+	text-align: center;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+div.news{
+	margin-top:20px; 
+	margin-bottom: 10px;
+}
+
+div.contact{
+	margin-top:20px; 
+	margin-bottom: 10px;
+}

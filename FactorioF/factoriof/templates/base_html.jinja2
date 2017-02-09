@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+	<title>Форум Factorio</title>
+	<meta charset="utf-8">
+	<link href="/static/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/static/css/bootstrap.css" rel="stylesheet">
+	<link href="/static/css/style.css" rel="stylesheet" >
+    <link rel="stylesheet" href="static/css/fancybox/jquery.fancybox.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="static/css/fancybox/jquery.fancybox-buttons.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="static/css/fancybox/jquery.fancybox-thumbs.css" type="text/css" media="screen"/>
+</head>
+<body>
+	<div class="col-md-10 col-xs-10 col-sm-10 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+	    {% block header %} {% endblock %}
+	    {% block data %} {% endblock %}
+	    {% block footer %} {% endblock %}
+	</div> 
+
+
+
+
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/static/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+	<script src="/static/js/fancybox/jquery.fancybox.js"></script>
+	<script src="/static/js/fancybox/jquery.fancybox-buttons.js"></script>
+	<script src="/static/js/fancybox/jquery.fancybox-thumbs.js"></script>
+    <script src="/static/js/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script src="/static/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+
+
+    <script type="text/javascript">
+		$(document).ready(function() {
+		$(".fancybox").fancybox();
+		});
+	</script>
+
+	<script src="/static/js/libs/jquery-1.9.1.min.js"></script>
+
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/bootstrap.js"></script>	
+
+
+</body>
+</html>

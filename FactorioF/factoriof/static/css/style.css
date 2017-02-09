@@ -1,0 +1,223 @@
+body {
+	background-image: url(../images/main_bg.gif);
+    background-color: black; 
+	background-repeat: repeat;
+	color: #fff;
+}
+
+header{
+	padding: 20px;
+	background-size: cover;
+	background: url(../images/header_bg.jpg) no-repeat center top;
+}
+
+
+article#posts{
+	background-color: #f4f4f4;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+aside{
+	color: #dadada;
+}
+
+section{
+	margin-top: 40px;
+	margin-bottom: 15px;
+	color: #000000;
+}
+
+nav#menu{
+	margin-top: 20px;
+	background-color: black;
+}
+
+div#logo{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+a.menu{
+	padding: inherit;
+	color: #fff;
+	font-size: 18px;
+	margin: 0px;
+}
+
+a.menu:hover{
+	color: #fdbb20;
+	text-decoration: none;
+}
+
+a.officialsite:hover{
+	color: #e97b20;
+	text-decoration: none;
+}
+
+a.officialsite{
+	color: #e97b20;
+	text-decoration: none;
+}
+
+p.line{
+	background-color: #bebebe;
+	height: 1px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+p.footerLine{
+	background-color: #323232;
+	height: 1px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+p#textfooter{
+	color: #929292;
+	font-size: 14px;
+}
+
+p.topicPost{
+	font-size: 2em;
+}
+
+p.sideStr{
+	font-size: 1.4em;
+}
+
+p.bodyPost{
+	font-size: 1em;
+}
+
+p.smallPost{
+	font-size: 0.8em;
+}
+
+p.halfPost{
+	font-size: 1.5em;
+}
+
+img.carusel{
+	height: 100%;
+	width: 100%;
+}
+
+img.imagepost{
+	max-height: 100px;
+	max-width: 200px;
+	min-height: 100px;
+	min-width: : 200px;
+	float:left;
+	margin: 0px 7px 7px 0;
+}
+
+img.MI{
+	height: 2em;
+	width: 2em;
+}
+
+img.no_copyright{
+	max-height: 9%;
+	max-width: 9%;
+	margin-left: 5px;
+}
+
+div.space{
+	margin-top: 20px;	
+}
+
+div.post{
+	margin-top: 30px;
+}
+
+div.wikiElement{
+	margin-top: 30px;
+}
+
+div.errors{
+	color: red;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#registerSite{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+div.homeContainer{
+	margin-top: 30px;
+	margin-bottom: 10px;	
+}
+
+div.aboutContainer{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+div.ElementWiki{
+	color: #ff00f0;
+}
+
+div.registerInput{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+div.miniPost{
+	font-size: 1em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+ul#menulist{
+}
+
+a.sidebtn:hover{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	background-image: linear-gradient(to top , #883810 2%,#e56423 50% ,#883810) ;
+}
+
+a.sidebtn{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+	font-size: 1.2em;
+	color: #f2f2f2;
+	text-decoration: none;
+	background-image: linear-gradient(to top, #e56423 2%, #883810 50%, #e56423) ;
+}
+
+a.links:hover{
+	font-size: 1em;
+	text-decoration: none;
+}
+
+a.links{
+	font-size: 1em;
+	text-decoration: none;
+}
+
+input.login{
+	color: #583810;
+}
+
+#login{
+
+}
+
+#register{
+}
+
+#registerSite{
+	margin-bottom: 10px;
+	margin-top: 25px;
+	font-size: 1.2em;
+}
+

@@ -1,0 +1,3 @@
+[run]
+source = factoriof
+omit = factoriof/test*
